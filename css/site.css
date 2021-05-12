@@ -11,7 +11,9 @@ header {
   background-image: url("../images/art_gallery.jpeg");
   background-size: cover;
   background-position: center;
+  max-width: 100vw;
   height: 350px;
+  overflow: hidden;
 }
 
 div#title {
@@ -34,16 +36,31 @@ h1 {
   font-size: 4em;
 }
 
+div#content {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+}
+
 nav {
-  position: absolute;
-  top: 700px;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: center;
+  margin-top: 30px;
+  width: 80%;
   text-align: center;
-  display: grid;
-  grid-template-columns: 33% 33% 33%;
+
+  /*
   text-decoration: uppercase;
   color: white;
   left: 50%;
+  position: absolute;
+  top: 700px;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: 33% 33% 33%;*/
 }
 
 div#medium {
@@ -64,7 +81,7 @@ div#medium a {
 
 article {
   display: block;
-  margin: 700px 50px 200px 50px;
+  margin: 50px 50px 200px 50px;
 }
 
 p {
@@ -73,9 +90,12 @@ p {
 }
 
 footer {
-  padding: 30px 10px 30px 10px;
-  display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  width: 100vw;
+  padding: 30px 30px 30px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-around;
   background-color: black;
 }
 
