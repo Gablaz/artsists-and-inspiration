@@ -6,15 +6,30 @@ body  {
 }
 
 div#gallery-background img {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   width: 100%;
   top: -240px;
   z-index: -10;
 }
 
+div#frames {
+  overflow: scroll;
+  width: 2500px;
+  position: absolute;
+  z-index: 5;
+}
+
+div#frames img {
+  display: inline-block;
+  margin: 50px 30px 50px 30px;
+  height: 300px;
+  filter: drop-shadow(2px 4px 6px #0000007d);
+}
+
 nav {
-  float: right;
+  position: fixed;
+  right: 0px;
   padding: 10px;
   background-color:rgba(0,0,0,0.5);
   z-index: 10;
