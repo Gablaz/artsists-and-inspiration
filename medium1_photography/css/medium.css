@@ -1,0 +1,46 @@
+body  {
+  padding: 0px;
+  margin: 0px;
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+div#gallery-background img {
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  top: -240px;
+  z-index: -10;
+}
+
+nav {
+  float: right;
+  padding: 10px;
+  background-color:rgba(0,0,0,0.5);
+  z-index: 10;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+div#description {
+  position: fixed;
+  padding: 20px 30px 20px 30px;
+  height: 35vh;
+  bottom: 0;
+  background-color: black;
+  z-index: 10px;
+}
+
+h1 {
+  font-size: 4em;
+  margin: 2px;
+}
+
+p {
+  font-family: 'Lato', sans-serif;
+  color: grey;
+}
