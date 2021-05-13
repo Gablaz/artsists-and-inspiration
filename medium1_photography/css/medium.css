@@ -18,25 +18,6 @@ div#gallery-background {
   z-index: -10;
 }
 
-/*div#gallery-background {
-  background-image: url("../images/art_gallery.jpeg");
-  height: 555px;
-  max-width: 100%;
-  background-size: cover;
-  background-position: center;
-  overflow: hidden;
-  top: 0px;
-  z-index: -10;
-}*/
-
-/*div#gallery-background img {
-  position: fixed;
-  overflow: hidden;
-  width: 1500px;
-  top: -240px;
-  z-index: -10;
-}*/
-
 div#frames {
   display: flex;
   flex-wrap: nowrap;
