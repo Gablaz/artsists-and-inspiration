@@ -2,7 +2,7 @@ body  {
   background-color: white;
   padding: 0px;
   margin: 0px;
-  font-family: 'Playfair Display', serif;\
+  font-family: 'Playfair Display', serif;
 }
 
 header {
@@ -101,7 +101,6 @@ footer {
 
 div#photography-artists, div#digital-artists, div#illustration-artists,
 div#painting-artists, div#sculpture-artists {
-  text-align: center;
 }
 
 footer a {
