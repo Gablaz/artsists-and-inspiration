@@ -63,30 +63,38 @@ nav {
   grid-template-columns: 33% 33% 33%;*/
 }
 
-div#medium {
+div#medium, div#medium-text-icon {
   margin: 30px;
   background-color: black;
   width: 250px;
   height: 250px;
 }
 
-div#medium a {
+ div#medium a, div#medium-text-icon p{
   position: relative;
-  top: 45%;
+  top: 50%;
   text-align: center;
   text-transform: uppercase;
   text-decoration: none;
+  font-family: 'Playfair Display', serif;
   color: white;
+  font-size: 1em;
+}
+
+div#medium-text-icon p {
+  top: 40%;
 }
 
 article {
   display: block;
-  margin: 50px 50px 200px 50px;
+  margin: 50px 80px 100px 80px;
 }
 
 p {
   font-family: 'Lato', sans-serif;
   color: grey;
+  line-height: 35px;
+  font-size: 1.3em;
 }
 
 footer {
