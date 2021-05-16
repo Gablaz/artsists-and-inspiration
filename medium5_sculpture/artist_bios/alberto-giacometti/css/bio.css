@@ -105,6 +105,18 @@ div#frames img {
   filter: drop-shadow(2px 4px 6px #0000007d);
 }
 
+div#portrait img{
+  margin: 23px;
+  height: 40vh;
+  filter: drop-shadow(2px 4px 6px #0000007d);
+  align-content: center;
+}
+
+.textwrap {
+  float:left;
+  margin: 10px;
+}
+
 @media screen and (max-width:600px) {
   div#frames img {
     height: 20vh;
