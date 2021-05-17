@@ -85,6 +85,13 @@ div#medium-text-icon p {
   top: 40%;
 }
 
+div#medium:hover {
+  background-image: url("../images/art_gallery.jpeg");
+  background-size: cover;
+  background-position: center;
+  #bb7538;
+}
+
 article {
   display: block;
   margin: 50px 80px 150px 80px;
