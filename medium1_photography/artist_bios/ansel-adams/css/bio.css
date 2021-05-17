@@ -12,6 +12,7 @@ div#gallery-background {
   background-position: center;
   position: fixed;
   overflow: hidden;
+  opacity: 90%;
   top: 0px;
   width: 100vw;
   height: 100vh;
@@ -47,16 +48,19 @@ nav a {
 
 div#description {
   position: fixed;
-  padding: 20px 30px 20px 30px;
+  padding: 20px 40px 20px 40px;
   width: 35vw;
   height: 100vh;
   background-color: black;
   z-index: 10px;
 }
 
-@media screen and (max-width:600px) {
+@media screen and (max-width:1000px) {
 div#description {
-    padding: 30px;
+    padding: 30px 30px 0px 30px;
+    height: 200vh;
+    position: absolute;
+    overflow: scroll;
   }
 }
 
@@ -65,15 +69,15 @@ h1 {
   margin: 2px;
 }
 
-
 @media screen and (max-width:600px) {
   h1 {
-    font-size: 3em;
+    font-size: 2em;
   }
 }
 
 p {
   font-family: 'Lato', sans-serif;
+  line-height: 32px;
   color: grey;
 }
 
@@ -86,6 +90,13 @@ div.wrapper {
   align-content: flex-end;
   overflow: scroll;
   z-index: 5px;
+}
+
+@media screen and (max-width:1000px) {
+  div.wrapper {
+    overflow: auto;
+    height: 200vh;
+  }
 }
 
 div#frames {
